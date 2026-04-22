@@ -1,0 +1,147 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "神山まるごと高専 紹介ページ" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e5]: DEMO
+        - generic [ref=e6]: 神山まるごと高専
+      - navigation "セクションナビゲーション" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "About" [ref=e10] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=e11]:
+            - link "Curriculum" [ref=e12] [cursor=pointer]:
+              - /url: "#features"
+          - listitem [ref=e13]:
+            - link "Campus" [ref=e14] [cursor=pointer]:
+              - /url: "#campus"
+          - listitem [ref=e15]:
+            - link "Student Life" [ref=e16] [cursor=pointer]:
+              - /url: "#life"
+          - listitem [ref=e17]:
+            - link "Contact" [ref=e18] [cursor=pointer]:
+              - /url: "#contact"
+        - group "Language" [ref=e19]:
+          - button "JA" [ref=e20] [cursor=pointer]
+          - button "EN" [pressed] [ref=e21] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: Kamiyama, Tokushima / 5-year KOSEN
+        - heading "Technology × Design × Entrepreneurship — Shape the future." [level=1] [ref=e26]:
+          - text: Technology × Design × Entrepreneurship —
+          - generic [ref=e27]: Shape the future.
+        - paragraph [ref=e28]: Kamiyama Marugoto KOSEN is a new 5-year technical college where students aged 15–20 live together in a mountain town and learn how to turn ideas into reality.
+        - generic [ref=e29]:
+          - link "Learn about the school" [ref=e30] [cursor=pointer]:
+            - /url: "#about"
+          - link "Visit official site" [ref=e31] [cursor=pointer]:
+            - /url: https://kamiyama.ac.jp/
+      - generic [ref=e32]: Fully residential!
+      - generic [ref=e33]: Opened in 2023!
+      - generic [ref=e34]: Tuition-free program
+    - generic [ref=e36]:
+      - heading "What is Kamiyama KOSEN?" [level=2] [ref=e37]:
+        - generic [ref=e38]: What is Kamiyama KOSEN?
+      - paragraph [ref=e39]: A brand new 5-year technical college opened in April 2023 in Kamiyama, Tokushima. Students aged 15 through 20 study Technology, Design, and Entrepreneurship together.
+      - generic [ref=e40]:
+        - article [ref=e41]:
+          - generic [ref=e42]: Founded
+          - heading "Opened in April 2023" [level=3] [ref=e43]
+          - paragraph [ref=e44]: The first new KOSEN to open in about 20 years, drawing students from across Japan.
+        - article [ref=e45]:
+          - generic [ref=e46]: Location
+          - heading "Kamiyama, Tokushima" [level=3] [ref=e47]
+          - paragraph [ref=e48]: A mountain town of around 5,000 people, surrounded by nature and full of unique grown-ups.
+        - article [ref=e49]:
+          - generic [ref=e50]: System
+          - heading "Residential, 5-year track" [level=3] [ref=e51]
+          - paragraph [ref=e52]: Every student lives on campus, learning steadily over five years right after junior high.
+      - generic [ref=e54]: "The motto: \"Nurture people who use the power of making to start things.\""
+    - generic [ref=e56]:
+      - heading "Three pillars of learning" [level=2] [ref=e57]:
+        - generic [ref=e58]: Three pillars of learning
+      - paragraph [ref=e59]: Not one narrow major — students blend three strengths to turn their ideas into real things.
+      - generic [ref=e60]:
+        - article [ref=e61]:
+          - generic [ref=e62]: 💻
+          - heading "Technology" [level=3] [ref=e63]
+          - paragraph [ref=e64]: Programming, AI, IoT, and more — learned hands-on, building real things.
+        - article [ref=e65]:
+          - generic [ref=e66]: 🎨
+          - heading "Design" [level=3] [ref=e67]
+          - paragraph [ref=e68]: Design as the power to ask good questions and deliver value to people and society.
+        - article [ref=e69]:
+          - generic [ref=e70]: 🚀
+          - heading "Entrepreneurship" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Actually ship ideas to the world and iterate, again and again, on a small scale.
+    - generic [ref=e74]:
+      - heading "The town itself is the campus." [level=2] [ref=e75]:
+        - generic [ref=e76]: The town itself is the campus.
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: About a one-hour bus ride from Tokushima station. Rice terraces, a river, IT ventures, and artists — this quietly unusual town becomes your learning ground for five years.
+          - list [ref=e80]:
+            - listitem [ref=e81]: 🌲 Surrounded by mountains, rivers, and rice terraces
+            - listitem [ref=e82]: 🏡 Work on projects with grown-ups all around town
+            - listitem [ref=e83]: 🚌 About 60 min by bus to Tokushima; easy weekend trips
+        - generic [ref=e85]: This is Kamiyama!
+    - generic [ref=e87]:
+      - heading "A day at the dorm (sample)" [level=2] [ref=e88]:
+        - generic [ref=e89]: A day at the dorm (sample)
+      - paragraph [ref=e90]: Because everyone lives together, you can keep talking, building, and dreaming with your peers well beyond class hours — on your own schedule.
+      - generic [ref=e91]:
+        - article [ref=e92]:
+          - generic [ref=e93]: Step 1
+          - generic [ref=e94]: 07:30
+          - heading "Good morning!" [level=3] [ref=e95]
+          - paragraph [ref=e96]: Breakfast together at the dorm cafeteria, featuring warm local ingredients.
+        - article [ref=e97]:
+          - generic [ref=e98]: Step 2
+          - generic [ref=e99]: 09:00
+          - heading "Classes begin" [level=3] [ref=e100]
+          - paragraph [ref=e101]: Technology and Design classes, plus hands-on project work fill the day.
+        - article [ref=e102]:
+          - generic [ref=e103]: Step 3
+          - generic [ref=e104]: 15:30
+          - heading "Your own time" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Clubs, projects, or visiting local grown-ups — use the afternoon freely.
+        - article [ref=e107]:
+          - generic [ref=e108]: Step 4
+          - generic [ref=e109]: 21:00
+          - heading "Chill with friends" [level=3] [ref=e110]
+          - paragraph [ref=e111]: Hang out in the lounge, or jot down ideas for tomorrow with your peers.
+    - generic [ref=e113]:
+      - heading "Want to know more?" [level=2] [ref=e114]:
+        - generic [ref=e115]: Want to know more?
+      - paragraph [ref=e116]: Check the official site and social media for the latest news, student stories, and open-campus dates.
+      - list [ref=e117]:
+        - listitem [ref=e118]:
+          - link "Official Site" [ref=e119] [cursor=pointer]:
+            - /url: https://kamiyama.ac.jp/
+            - generic [ref=e120]: 🌐
+            - generic [ref=e121]: Official Site
+        - listitem [ref=e122]:
+          - link "X (Twitter)" [ref=e123] [cursor=pointer]:
+            - /url: https://twitter.com/kamiyama_kosen
+            - generic [ref=e124]: ✖️
+            - generic [ref=e125]: X (Twitter)
+        - listitem [ref=e126]:
+          - link "Instagram" [ref=e127] [cursor=pointer]:
+            - /url: https://www.instagram.com/kamiyama_kosen/
+            - generic [ref=e128]: 📷
+            - generic [ref=e129]: Instagram
+        - listitem [ref=e130]:
+          - link "YouTube" [ref=e131] [cursor=pointer]:
+            - /url: https://www.youtube.com/@kamiyama_kosen
+            - generic [ref=e132]: ▶️
+            - generic [ref=e133]: YouTube
+  - contentinfo [ref=e134]:
+    - generic [ref=e135]:
+      - paragraph [ref=e136]: This site is NOT the official website of Kamiyama Marugoto KOSEN. It is a pop-style demo page built with GitHub Copilot. For accurate information, please refer to the official website.
+      - paragraph [ref=e137]:
+        - text: "Source: Kamiyama Marugoto KOSEN official website —"
+        - link "kamiyama.ac.jp" [ref=e138] [cursor=pointer]:
+          - /url: https://kamiyama.ac.jp/
+      - paragraph [ref=e139]: © 2026 Kamiyama School Intro Demo

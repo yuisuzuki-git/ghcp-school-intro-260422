@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.title">神山まるごと高専 紹介ページ（非公式サンプル）</title>
+  <meta name="description" data-i18n="meta.description" content="神山まるごと高専の魅力を紹介するデモサイトなのだ。" />
+  <meta name="color-scheme" content="light" />
+  <meta name="theme-color" content="#ffd83d" />
+
+  <!-- Google Fonts: 手書き風＋丸ゴシック -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Yomogi&family=Zen+Kurenaido&family=M+PLUS+Rounded+1c:wght@500;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="icon" href="./assets/img/character.svg" type="image/svg+xml" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="#top" class="logo" aria-label="神山まるごと高専 紹介ページ">
+        <span class="logo__badge">DEMO</span>
+        <span>神山まるごと高専</span>
+      </a>
+      <nav class="nav" aria-label="セクションナビゲーション">
+        <ul class="nav__list">
+          <li><a href="#about" data-i18n="nav.about">学校のこと</a></li>
+          <li><a href="#features" data-i18n="nav.features">特色</a></li>
+          <li><a href="#campus" data-i18n="nav.campus">キャンパス</a></li>
+          <li><a href="#life" data-i18n="nav.life">学生生活</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">お問い合わせ</a></li>
+        </ul>
+        <div class="lang-toggle" role="group" aria-label="Language">
+          <button type="button" data-lang-btn="ja" aria-pressed="true">JA</button>
+          <button type="button" data-lang-btn="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner reveal">
+        <span class="hero__eyebrow" data-i18n="hero.eyebrow">徳島県神山町発 / 5年制高等専門学校</span>
+        <h1 class="hero__title">
+          <span data-i18n="hero.title.1">テクノロジー×デザイン×起業家精神で、</span><br />
+          <span class="hero__title-accent" data-i18n="hero.title.2">未来をつくる。</span>
+        </h1>
+        <p class="hero__lead" data-i18n="hero.lead">
+          神山まるごと高専は、モノをつくる力で、コトを起こす人を育てる学校なのだ。
+        </p>
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#about" data-i18n="hero.cta.primary">学校のことを知る</a>
+          <a class="btn btn--ghost" href="https://kamiyama.ac.jp/" target="_blank" rel="noopener" data-i18n="hero.cta.secondary">公式サイトを見る</a>
+        </div>
+      </div>
+      <div class="hero__sticker hero__sticker--1" data-i18n="hero.sticker.1">全寮制！5年間</div>
+      <div class="hero__sticker hero__sticker--2" data-i18n="hero.sticker.2">2023年開校！</div>
+      <div class="hero__sticker hero__sticker--3" data-i18n="hero.sticker.3">学費実質ゼロ円制度</div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section--slant-top bg-mint">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__title-deco" data-i18n="about.title">神山まるごと高専って？</span></h2>
+        <p class="reveal" style="text-align:center;max-width:720px;margin:0 auto 2.5rem;" data-i18n="about.lead">2023年4月に徳島県神山町で開校した、新しい高等専門学校（高専）なのだ。</p>
+
+        <div class="card-grid">
+          <article class="card reveal">
+            <img class="card__icon" src="./assets/img/star.svg" alt="" />
+            <span class="card__tag" data-i18n="about.card1.tag">開校</span>
+            <h3 class="card__title" data-i18n="about.card1.title">2023年4月開校</h3>
+            <p data-i18n="about.card1.body">約20年ぶりに新設された高専として話題になった、全国から学生が集まる学校なのだ。</p>
+          </article>
+          <article class="card reveal">
+            <img class="card__icon" src="./assets/img/mountain.svg" alt="" />
+            <span class="card__tag" data-i18n="about.card2.tag">立地</span>
+            <h3 class="card__title" data-i18n="about.card2.title">徳島県・神山町</h3>
+            <p data-i18n="about.card2.body">人口5,000人ほどの山あいの町。豊かな自然とユニークな大人たちに囲まれて学ぶのだ。</p>
+          </article>
+          <article class="card reveal">
+            <img class="card__icon" src="./assets/img/school.svg" alt="" />
+            <span class="card__tag" data-i18n="about.card3.tag">制度</span>
+            <h3 class="card__title" data-i18n="about.card3.title">全寮制・5年一貫</h3>
+            <p data-i18n="about.card3.body">全員が寮で生活しながら、中学卒業直後から5年間、のびのびとじっくり学べる環境なのだ。</p>
+          </article>
+        </div>
+
+        <div style="text-align:center;margin-top:2.5rem;" class="reveal">
+          <span class="bubble" data-i18n="about.bubble">「モノをつくる力で、コトを起こす人を育てる。」が合言葉なのだ！</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section bg-cream">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__title-deco" data-i18n="features.title">3つの学びの柱</span></h2>
+        <p class="reveal" style="text-align:center;max-width:720px;margin:0 auto 2.5rem;" data-i18n="features.lead">
+          3つの力をかけあわせて、アイデアをカタチにする力を育てるのだ。
+        </p>
+        <div class="pillars">
+          <article class="pillar reveal">
+            <span class="pillar__emoji" aria-hidden="true">💻</span>
+            <h3 data-i18n="features.p1.title">テクノロジー</h3>
+            <p data-i18n="features.p1.body">プログラミング、AI、IoTなどを手を動かしながら学ぶのだ。</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar__emoji" aria-hidden="true">🎨</span>
+            <h3 data-i18n="features.p2.title">デザイン</h3>
+            <p data-i18n="features.p2.body">問いを立てて、人と社会に届ける力としてのデザインを学ぶのだ。</p>
+          </article>
+          <article class="pillar reveal">
+            <span class="pillar__emoji" aria-hidden="true">🚀</span>
+            <h3 data-i18n="features.p3.title">起業家精神</h3>
+            <p data-i18n="features.p3.body">アイデアを世に出して、小さく動かしてみる経験を積むのだ。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Campus -->
+    <section id="campus" class="section section--slant-both bg-sky">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__title-deco" data-i18n="campus.title">キャンパスは、神山町まるごと。</span></h2>
+        <div class="two-col">
+          <div class="reveal">
+            <p data-i18n="campus.lead">徳島駅からバスで約1時間。町そのものが学びの舞台なのだ。</p>
+            <ul style="list-style:none;padding:0;margin-top:1.5rem;">
+              <li style="margin-bottom:.6rem;" data-i18n="campus.feature1">🌲 山・川・棚田に囲まれた自然豊かな環境</li>
+              <li style="margin-bottom:.6rem;" data-i18n="campus.feature2">🏡 町じゅうの大人と一緒にプロジェクトができる</li>
+              <li style="margin-bottom:.6rem;" data-i18n="campus.feature3">🚌 徳島駅までバス約60分</li>
+            </ul>
+          </div>
+          <div class="map-card reveal" aria-hidden="true">
+            <span class="map-card__pin" data-i18n="campus.map.pin">ここが神山町なのだ！</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Student Life -->
+    <section id="life" class="section bg-lavender">
+      <div class="container">
+        <h2 class="section__title reveal"><span class="section__title-deco" data-i18n="life.title">寮での1日（例）</span></h2>
+        <p class="reveal" style="text-align:center;max-width:720px;margin:0 auto 3rem;" data-i18n="life.lead">
+          なかまと一緒に、自分のペースで時間を使えるのだ。
+        </p>
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step__num">Step 1</span>
+            <span class="step__time" data-i18n="life.step1.time">07:30</span>
+            <h3 data-i18n="life.step1.title">おはよう！</h3>
+            <p data-i18n="life.step1.body">みんなで朝ごはん。地元食材のあたたかい料理を食べるのだ。</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__num">Step 2</span>
+            <span class="step__time" data-i18n="life.step2.time">09:00</span>
+            <h3 data-i18n="life.step2.title">授業スタート</h3>
+            <p data-i18n="life.step2.body">テクノロジー・デザインの授業や、プロジェクトワーク中心なのだ。</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__num">Step 3</span>
+            <span class="step__time" data-i18n="life.step3.time">15:30</span>
+            <h3 data-i18n="life.step3.title">自分の時間</h3>
+            <p data-i18n="life.step3.body">部活、プロジェクト、町のおとなに会いに行くのだ。</p>
+          </article>
+          <article class="step reveal">
+            <span class="step__num">Step 4</span>
+            <span class="step__time" data-i18n="life.step4.time">21:00</span>
+            <h3 data-i18n="life.step4.title">なかまとリラックス</h3>
+            <p data-i18n="life.step4.body">寮のラウンジでおしゃべりしたり、明日のアイデアをメモしたりするのだ。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section section--slant-top bg-cherry">
+      <div class="container" style="text-align:center;">
+        <h2 class="section__title reveal"><span class="section__title-deco" data-i18n="contact.title">もっと知りたくなったら</span></h2>
+        <p class="reveal" style="max-width:640px;margin:0 auto;" data-i18n="contact.lead">
+          公式サイトやSNSで、最新情報をチェックできるのだ。
+        </p>
+        <ul class="sns-list reveal">
+          <li><a href="https://kamiyama.ac.jp/" target="_blank" rel="noopener"><span aria-hidden="true">🌐</span><span data-i18n="contact.sns.site">公式サイト</span></a></li>
+          <li><a href="https://twitter.com/kamiyama_kosen" target="_blank" rel="noopener"><span aria-hidden="true">✖️</span><span data-i18n="contact.sns.x">X（旧Twitter）</span></a></li>
+          <li><a href="https://www.instagram.com/kamiyama_kosen/" target="_blank" rel="noopener"><span aria-hidden="true">📷</span><span data-i18n="contact.sns.instagram">Instagram</span></a></li>
+          <li><a href="https://www.youtube.com/@kamiyama_kosen" target="_blank" rel="noopener"><span aria-hidden="true">▶️</span><span data-i18n="contact.sns.youtube">YouTube</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="site-footer__disclaimer" data-i18n="footer.disclaimer">
+        ※本サイトは神山まるごと高専の公式サイトではないのだ。デモとして作成したサンプルページなのだ。
+      </p>
+      <p>
+        <span data-i18n="footer.source">情報出典：神山まるごと高専 公式サイト</span>
+        — <a href="https://kamiyama.ac.jp/" target="_blank" rel="noopener">kamiyama.ac.jp</a>
+      </p>
+      <p data-i18n="footer.copy">© 2026 Kamiyama School Intro Demo</p>
+    </div>
+  </footer>
+
+  <script src="./assets/js/i18n.js" defer></script>
+  <script src="./assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,147 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "神山まるごと高専 紹介ページ" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e5]: DEMO
+        - generic [ref=e6]: 神山まるごと高専
+      - navigation "セクションナビゲーション" [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "学校のこと" [ref=e10] [cursor=pointer]:
+              - /url: "#about"
+          - listitem [ref=e11]:
+            - link "特色" [ref=e12] [cursor=pointer]:
+              - /url: "#features"
+          - listitem [ref=e13]:
+            - link "キャンパス" [ref=e14] [cursor=pointer]:
+              - /url: "#campus"
+          - listitem [ref=e15]:
+            - link "学生生活" [ref=e16] [cursor=pointer]:
+              - /url: "#life"
+          - listitem [ref=e17]:
+            - link "お問い合わせ" [ref=e18] [cursor=pointer]:
+              - /url: "#contact"
+        - group "Language" [ref=e19]:
+          - button "JA" [pressed] [ref=e20] [cursor=pointer]
+          - button "EN" [ref=e21] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: 徳島県神山町発 / 5年制高等専門学校
+        - heading "テクノロジー×デザイン×起業家精神で、 未来をつくる。" [level=1] [ref=e26]:
+          - text: テクノロジー×デザイン×起業家精神で、
+          - generic [ref=e27]: 未来をつくる。
+        - paragraph [ref=e28]: 神山まるごと高専は、モノをつくる力で、コトを起こす人を育てる学校。全寮制で15〜20歳のなかまと、山あいの町で5年間、のびのびと学ぶのだ。
+        - generic [ref=e29]:
+          - link "学校のことを知る" [ref=e30] [cursor=pointer]:
+            - /url: "#about"
+          - link "公式サイトを見る" [ref=e31] [cursor=pointer]:
+            - /url: https://kamiyama.ac.jp/
+      - generic [ref=e32]: 全寮制！ 5年間
+      - generic [ref=e33]: 2023年 開校！
+      - generic [ref=e34]: 学費実質 ゼロ円制度
+    - generic [ref=e36]:
+      - heading "神山まるごと高専って？" [level=2] [ref=e37]:
+        - generic [ref=e38]: 神山まるごと高専って？
+      - paragraph [ref=e39]: 2023年4月に徳島県神山町で開校した、新しい高等専門学校（高専）なのだ。中学卒業後の15歳から20歳までの5年間、テクノロジーとデザイン、そして起業家精神を学ぶのだ。
+      - generic [ref=e40]:
+        - article [ref=e41]:
+          - generic [ref=e42]: 開校
+          - heading "2023年4月開校" [level=3] [ref=e43]
+          - paragraph [ref=e44]: 約20年ぶりに新設された高専として話題になった、全国から学生が集まる学校なのだ。
+        - article [ref=e45]:
+          - generic [ref=e46]: 立地
+          - heading "徳島県・神山町" [level=3] [ref=e47]
+          - paragraph [ref=e48]: 人口5,000人ほどの山あいの町。豊かな自然とユニークな大人たちに囲まれて学ぶのだ。
+        - article [ref=e49]:
+          - generic [ref=e50]: 制度
+          - heading "全寮制・5年一貫" [level=3] [ref=e51]
+          - paragraph [ref=e52]: 全員が寮で生活しながら、中学卒業直後から5年間、のびのびとじっくり学べる環境なのだ。
+      - generic [ref=e54]: 「モノをつくる力で、コトを起こす人を育てる。」が合言葉なのだ！
+    - generic [ref=e56]:
+      - heading "3つの学びの柱" [level=2] [ref=e57]:
+        - generic [ref=e58]: 3つの学びの柱
+      - paragraph [ref=e59]: ひとつの専門を極めるのではなく、3つの力をかけあわせて、自分のアイデアをカタチにする力を育てるのだ。
+      - generic [ref=e60]:
+        - article [ref=e61]:
+          - generic [ref=e62]: 💻
+          - heading "テクノロジー" [level=3] [ref=e63]
+          - paragraph [ref=e64]: プログラミング、AI、IoTなど、社会を動かす技術を手を動かしながら学ぶのだ。
+        - article [ref=e65]:
+          - generic [ref=e66]: 🎨
+          - heading "デザイン" [level=3] [ref=e67]
+          - paragraph [ref=e68]: 見た目だけじゃなく、問いを立てて、人と社会に届ける力としてのデザインを学ぶのだ。
+        - article [ref=e69]:
+          - generic [ref=e70]: 🚀
+          - heading "起業家精神" [level=3] [ref=e71]
+          - paragraph [ref=e72]: アイデアを実際に世に出して、小さく動かしてみる経験を積み重ねるのだ。
+    - generic [ref=e74]:
+      - heading "キャンパスは、神山町まるごと。" [level=2] [ref=e75]:
+        - generic [ref=e76]: キャンパスは、神山町まるごと。
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: 徳島駅からバスで約1時間。棚田が広がり、川の音が聞こえる、町そのものが学びの舞台なのだ。ITベンチャーやアーティストも移住する、ちょっと不思議な町で5年間を過ごすのだ。
+          - list [ref=e80]:
+            - listitem [ref=e81]: 🌲 山・川・棚田に囲まれた自然豊かな環境
+            - listitem [ref=e82]: 🏡 町じゅうの大人と一緒にプロジェクトができる
+            - listitem [ref=e83]: 🚌 徳島駅までバス約60分。休日は街にも出かけられる
+        - generic [ref=e85]: ここが神山町なのだ！
+    - generic [ref=e87]:
+      - heading "寮での1日（例）" [level=2] [ref=e88]:
+        - generic [ref=e89]: 寮での1日（例）
+      - paragraph [ref=e90]: 全員が寮で暮らしているから、授業が終わってもなかまと話したり、プロジェクトを続けたり、自分のペースで時間を使えるのだ。
+      - generic [ref=e91]:
+        - article [ref=e92]:
+          - generic [ref=e93]: Step 1
+          - generic [ref=e94]: 07:30
+          - heading "おはよう！" [level=3] [ref=e95]
+          - paragraph [ref=e96]: みんなで朝ごはん。寮の食堂で地元食材のあたたかい料理を食べるのだ。
+        - article [ref=e97]:
+          - generic [ref=e98]: Step 2
+          - generic [ref=e99]: 09:00
+          - heading "授業スタート" [level=3] [ref=e100]
+          - paragraph [ref=e101]: テクノロジー・デザインの授業や、手を動かすプロジェクトワークが中心なのだ。
+        - article [ref=e102]:
+          - generic [ref=e103]: Step 3
+          - generic [ref=e104]: 15:30
+          - heading "自分の時間" [level=3] [ref=e105]
+          - paragraph [ref=e106]: 部活、プロジェクト、町のおとなに会いに行く。自由な時間を思いっきり使うのだ。
+        - article [ref=e107]:
+          - generic [ref=e108]: Step 4
+          - generic [ref=e109]: 21:00
+          - heading "なかまとリラックス" [level=3] [ref=e110]
+          - paragraph [ref=e111]: 寮のラウンジでおしゃべりしたり、明日のアイデアをメモしたりするのだ。
+    - generic [ref=e113]:
+      - heading "もっと知りたくなったら" [level=2] [ref=e114]:
+        - generic [ref=e115]: もっと知りたくなったら
+      - paragraph [ref=e116]: 公式サイトやSNSで、学校の最新情報や学生の日常をチェックできるのだ。興味があれば、オープンスクール情報もあわせて見てほしいのだ！
+      - list [ref=e117]:
+        - listitem [ref=e118]:
+          - link "公式サイト" [ref=e119] [cursor=pointer]:
+            - /url: https://kamiyama.ac.jp/
+            - generic [ref=e120]: 🌐
+            - generic [ref=e121]: 公式サイト
+        - listitem [ref=e122]:
+          - link "X（旧Twitter）" [ref=e123] [cursor=pointer]:
+            - /url: https://twitter.com/kamiyama_kosen
+            - generic [ref=e124]: ✖️
+            - generic [ref=e125]: X（旧Twitter）
+        - listitem [ref=e126]:
+          - link "Instagram" [ref=e127] [cursor=pointer]:
+            - /url: https://www.instagram.com/kamiyama_kosen/
+            - generic [ref=e128]: 📷
+            - generic [ref=e129]: Instagram
+        - listitem [ref=e130]:
+          - link "YouTube" [ref=e131] [cursor=pointer]:
+            - /url: https://www.youtube.com/@kamiyama_kosen
+            - generic [ref=e132]: ▶️
+            - generic [ref=e133]: YouTube
+  - contentinfo [ref=e134]:
+    - generic [ref=e135]:
+      - paragraph [ref=e136]: ※本サイトは神山まるごと高専の公式サイトではないのだ。GitHub Copilotを使ったポップデザインのデモとして作ったサンプルページで、すべての正確な情報は公式サイトを確認してほしいのだ。
+      - paragraph [ref=e137]:
+        - text: 情報出典：神山まるごと高専 公式サイト —
+        - link "kamiyama.ac.jp" [ref=e138] [cursor=pointer]:
+          - /url: https://kamiyama.ac.jp/
+      - paragraph [ref=e139]: © 2026 Kamiyama School Intro Demo
